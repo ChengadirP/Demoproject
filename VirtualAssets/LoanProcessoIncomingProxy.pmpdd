@@ -1,7 +1,6 @@
 <proxyConfiguration xmlVersion="5" productVersion="0">
  <ProxyConfiguration className="com.parasoft.stub.proxy.ProxyConfiguration" version="1.2.2">
   <id>91c7d6de-9bb5-4a9e-84e9-9613fa2c0cfe-1554445068890</id>
-  <enabled>false</enabled>
   <proxyCount>1</proxyCount>
   <HttpProxyConnection className="com.parasoft.stub.proxy.HttpProxyConnection" version="1.10.4">
    <append>true</append>
@@ -10,17 +9,23 @@
    <port>80</port>
    <listenPath>/LoanProcessoIncomingProxy</listenPath>
    <HttpProxyTargetConnection className="com.parasoft.stub.proxy.HttpProxyTargetConnection" version="1.1">
-    <keystorePass>AgAAACBTyZ7K+QNMVgoHH6v2RyTiZuErkUKKAem1L9ifOSPgSw==</keystorePass>
+    <keystore>null</keystore>
+    <keystorePass>AgAAACCKlhgajRZeXGQClUzzTtHCNpxqfjsha+mZvPEIhkVkmA==</keystorePass>
     <keystoreType>JKS</keystoreType>
-    <truststorePass>AgAAACCB4Ki6FAxzqzJlrLJUVQhzwUajn2+gsV3Ad6tXpO4srQ==</truststorePass>
+    <truststore>null</truststore>
+    <truststorePass>AgAAACD7s3/N+3Be7OpebzlaQL5XkAX4i+S1354ZLDoyON2R9w==</truststorePass>
     <truststoreType>JKS</truststoreType>
     <forwardPath>/parabank/services/LoanProcessor</forwardPath>
     <host>localhost</host>
-    <port>8002</port>
+    <port>7002</port>
    </HttpProxyTargetConnection>
    <HttpProxyTargetConnection className="com.parasoft.stub.proxy.HttpProxyTargetConnection" version="1.1">
-    <keystoreType>PKCS12</keystoreType>
-    <truststoreType>PKCS12</truststoreType>
+    <keystore>null</keystore>
+    <keystorePass>AgAAACBA4dnG/+sS8zrXCqckCI1sjeyEI63SZtOZxFL4wmAw0A==</keystorePass>
+    <keystoreType>JKS</keystoreType>
+    <truststore>null</truststore>
+    <truststorePass>AgAAACC1U5L1Y265GtzV/9dREsKdT4INRuveL+T6FnUbAGKvWA==</truststorePass>
+    <truststoreType>JKS</truststoreType>
     <port>80</port>
    </HttpProxyTargetConnection>
   </HttpProxyConnection>

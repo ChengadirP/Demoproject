@@ -1,7 +1,6 @@
 <proxyConfiguration xmlVersion="5" productVersion="0">
  <ProxyConfiguration className="com.parasoft.stub.proxy.ProxyConfiguration" version="1.2.2">
   <id>8b19c4c5-a279-4ecf-8ac7-2eca25cc956f-1554707175595</id>
-  <enabled>false</enabled>
   <proxyCount>1</proxyCount>
   <HttpProxyConnection className="com.parasoft.stub.proxy.HttpProxyConnection" version="1.10.4">
    <append>true</append>
